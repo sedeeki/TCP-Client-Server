@@ -1,7 +1,7 @@
 # TCP-Client-Server
 TCP Client Server in C++ MultiThreaded. 
 
-a C++ program that in a loop listens on a port for incoming TCP requests from clients. 
+A C++ program that in a loop listens on a port for incoming TCP requests from clients. 
 For each accepted incoming request it forks a child to read and process the request. 
 The parent process continues to listen and accept incoming TCP requests in an endless loop.
 
@@ -31,6 +31,6 @@ If the pathname refers to a directory, then:
 if a file "index.html" exists in that directory, it will be returned;
 else, a list of files in that directory will be returned (not including any file that starts with ".")
 
-  GET INFO 
- It will return the current time and date in text format to the client
+  	GET INFO 
+It will return the current time and date in text format to the client
 
